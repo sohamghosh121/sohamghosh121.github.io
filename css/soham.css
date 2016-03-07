@@ -837,10 +837,27 @@ ul.social-buttons li a:active {
 	max-width: 75%;
 }
 
+.experience-item {
+	background: white;
+	border: 1px solid #c7c7c7;
+	border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.experience-item img {
+	margin: 0px auto;
+	max-height: 80px;
+	vertical-align: middle;
+}
+
 .project-item {
 	background: white;
 	margin: 25px 10px;
-	height: 300px;
+	min-height: 365px;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+    padding: 15px;
 }
 
 .hobby-heading {
