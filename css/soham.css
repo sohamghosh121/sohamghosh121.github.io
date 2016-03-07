@@ -880,6 +880,10 @@ ul.social-buttons li a:active {
     top: 0.2em;
 }
 
+.meet-soham {
+	font-size: 5em;
+}
+
 img::selection {
     background: 0 0
 }
