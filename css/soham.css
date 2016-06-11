@@ -228,6 +228,27 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503
 }
 
+@media (max-width:992px) {
+    .skills-rating {
+        font-size:0.8em!important;
+    }
+
+    .navbar-default .nav li a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:768px) {
+
+    .skills-logo {
+        width: 30%!important;
+    }
+
+    .skills-rating {
+        font-size:1.6em!important;
+    }
+}
+
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -237,6 +258,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
         border: 0
     }
+
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -291,6 +313,7 @@ header .intro-text .intro-heading {
 }
 
 @media (min-width:768px) {
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px
@@ -858,7 +881,6 @@ ul.social-buttons li a:active {
 .experience-item img {
 	margin: 0px auto;
 	max-height: 80px;
-    margin-top: calc(100% - 150px);
 	vertical-align: middle;
 }
 
@@ -890,7 +912,7 @@ ul.social-buttons li a:active {
 }
 
 .skills-rating {
-    font-size: 1.6em!important;
+    /*font-size: 1.2em!important;*/
     margin: 20px 4px;
     color: #fec503;
 }
