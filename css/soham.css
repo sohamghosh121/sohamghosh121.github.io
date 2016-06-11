@@ -841,6 +841,12 @@ ul.social-buttons li a:active {
 	max-width: 75%;
 }
 
+.school-img {
+    margin: 0 auto;
+    max-width: 75%;
+    height: 150px;
+}
+
 .experience-item {
 	background: white;
 	border: 1px solid #c7c7c7;
@@ -865,13 +871,22 @@ ul.social-buttons li a:active {
     padding: 15px;
 }
 
+.education-item {
+    background: white;
+    margin: 25px 10px;
+    min-height: 330px;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+    padding: 15px;
+}
+
 .hobby-heading {
 	margin: 20px 0px;
 }
 
 .skills-logo {
 	margin: 0px auto;
-	width: 60%;
+	width: 50%;
 }
 
 .skills-rating {
