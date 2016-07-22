@@ -276,7 +276,7 @@
                     <span class="experience-duration"> Summer 2016  </span>
                     <hr class="featurette-divider experience-hr">
                     <p>
-                        I am very excited to join IBM for the summer of 2016. I am currently working on increasing spatial coverage of traffic speed estimation using GPS probe data by developing various data expansion algorithms
+                        I am very excited to join IBM for the summer of 2016. I am currently working on real time traffic speed estimation using GPS probe data by proposing novel denoising autoencoder architectures. Working towards a paper submission.
                     </p>
                 </div>
             </div>
@@ -354,11 +354,10 @@
             <div class="row text-center">
                 <div class="col-md-6"> 
                     <div class="project-item">
-                    <h5 class="project-heading"> Mining social connections from Flickr YFCC100M datasets</h5>
+                    <h5 class="project-heading"> Optical Character Recognition in tattoos </h5>
                     <hr class="featurette-divider" />
                     <p class="text-left">
-                        I recently started this project with Dr. Iva to explore if social connections between people can be mined from an images dataset. YFCC100M is a large 100 million size image dataset with many informative tags, which we hope to exploit to build a social graph of the Flickr users who posted the photos and people who are contained in these photos. A possible future application of findings from this project could be in forensics.<br>
-                        <strong>Worked with </strong>: Dr Iva Bojic, Singapore MIT  Alliance For Research and Technology
+                        I recently started this project with Dr. Kong as a coninuing collaboration. In this project, I am exploring how to do OCR in tattoo images. OCR on tattoo images would make textual annotation of images in law enforcement databases much easier. This is challenging because of the following reasons - 1) unlike typical images, the direction of the text is not in a single line, and may even be turned upside down and 2) letters may not be as well formed as generally assumed in past text recognition literature (i.e. not in a line, not of same size) 3) tattoo language models are hard to form to set a prior on the detected words - they can be names, gang names, quotes and so on. I am thinking of using a pixel based skin + tattoo area detection method and then using sliding window CNN for detection and recognition of characters at multiple scales. Instead of using run length smoothing, a good clustering method must be used to find clusters of lines. I have not figured out the language model part yet.
                     </p>
                     </div>
                 </div>
@@ -442,7 +441,7 @@
         <h2 class="section-heading">Publications</h2>
         <div class="container">
             <div class="row text-left experience-item">
-                Qingyong Xu; <b>Soham Ghosh </b>; Xu Xingpeng; Huang Yi.; Kong, Adams. " Tattoo Detection Based on CNN and Remarks on the NIST Database," 2016 International Conference on Biometrics (ICB), Halmstad, 2016
+                Qingyong Xu; <b>Soham Ghosh </b>; Xu Xingpeng; Huang Yi.; Kong, Adams. " Tattoo Detection Based on CNN and Remarks on the NIST Database," 2016 International Conference on Biometrics (ICB), Halmstad, 2016 <strong> BEST REVIEWED PAPERS </strong>
 
             </div>
             <div class="row text-left experience-item">
@@ -529,6 +528,17 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81229642-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 
