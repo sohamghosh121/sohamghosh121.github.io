@@ -992,6 +992,7 @@ ul.social-buttons li a:active {
     margin-top: 40px;
     font-size: 1.1em;
     line-height: 1.3em;
+    text-align: justify;
 }
 
 .history-item-connector {

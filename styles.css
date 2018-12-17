@@ -1,0 +1,26 @@
+
+ul.social-buttons {
+    margin-bottom: 0
+}
+
+ul.social-buttons li a {
+    display: block;
+    background-color: #eee;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+    color: white;
+}
