@@ -109,6 +109,26 @@ const EDUCATION = [
 // Optional PDF links can be added per paper via the `pdf` field (file placed under public/pubs/...)
 const PUBLICATIONS = [
   {
+    title: "Voxtral TTS",
+    authors: "Mistral AI team",
+    venue: "arXiv",
+    year: "2025",
+    link: "https://arxiv.org/abs/2603.25551",
+    pdf: "/pubs/voxtral-tts.pdf",
+    summary: "An expressive multilingual speech synthesis system combining autoregressive semantic token generation with flow-matching for acoustic components, achieving a 68.4% win rate over ElevenLabs Flash v2.5.",
+    image: "/pubs/voxtral-tts.png",
+  },
+  {
+    title: "Voxtral Realtime",
+    authors: "Mistral AI team",
+    venue: "arXiv",
+    year: "2025",
+    link: "https://arxiv.org/abs/2602.11298",
+    pdf: "/pubs/voxtral-realtime.pdf",
+    summary: "A natively streaming ASR model with a causal audio encoder and improved delay conditioning, matching offline systems like Whisper at sub-second (480ms) latency across 13 languages.",
+    image: "/pubs/voxtral-realtime.png",
+  },
+  {
     title: "Voxtral",
     authors: "Mistral AI team",
     venue: "arXiv",
